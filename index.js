@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8000;
 
 app.get("/", (req, res) => {
-  res.send("Fuck you!");
+  res.send("I'm build branch!");
 });
 
 app.get("/dashboard", (req, res) => {
